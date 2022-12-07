@@ -11,6 +11,33 @@ export const NavMenu = () => (
     </svg>
 );
 
+export const LogoAlex = () => (
+    <svg
+        width="55px"
+        height="55px"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 50.11 43.9"
+    >
+        <title>Logo</title>
+        <path
+            className="svgStroke"
+            fill="none"
+            stroke="#000"
+            strokeMiterlimit="10"
+            strokeWidth="2px"
+            d="M31.87,43.25c5.06-6,7.53-8.47,17.65-16"
+        />
+        <path
+            className="svgStroke"
+            fill="none"
+            stroke="#000"
+            strokeMiterlimit="10"
+            strokeWidth="2px"
+            d="M.28,42.36c7.41,.22,16.36,.08,23.77,.31-2.35-14-6.14-27.56-9.99-39.74C10.91,10.59,5.13,26.42,1.99,34.08c16.75-9.02,37.06-.35,45.47,8.59"
+        />
+    </svg>
+);
+
 export const SearchIcon = () => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
