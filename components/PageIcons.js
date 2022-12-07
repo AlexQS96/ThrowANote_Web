@@ -13,8 +13,8 @@ export const NavMenu = () => (
 
 export const LogoAlex = () => (
     <svg
-        width="55px"
-        height="55px"
+        width="24px"
+        height="24px"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 50.11 43.9"
     >
