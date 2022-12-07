@@ -1,0 +1,24 @@
+{
+  "name": "throwanote_web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@quiq/react-linkify": "^0.2.5",
+    "@svgr/webpack": "^6.5.1",
+    "axios": "^1.2.1",
+    "framer-motion": "^7.6.17",
+    "next": "^13.0.6",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.4"
+  }
+}

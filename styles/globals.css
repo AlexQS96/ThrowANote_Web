@@ -1,0 +1,110 @@
+@import url(home.css);
+@import url(navs.css);
+@import url(note.css);
+
+@font-face {
+  font-family: 'Virgil';
+  src: url('/fonts/Virgil.woff2') format('woff2');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Virgil';
+  letter-spacing: 0.15rem;
+  scroll-behavior: smooth;
+}
+
+*::selection{
+  background-color: yellow;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html{
+  max-width: 1920px;
+  margin-inline: auto;
+  background-color: #fff;
+  border-inline: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+[data-paper-lines]{
+  background-image: linear-gradient(#bababa 1px, transparent 0px);
+  background-size: 100% 2em;
+  background-position-y: 1.5rem;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input[type=submit],
+button{
+  outline: none;
+  border-style: none;
+  background-color: inherit;
+  cursor: pointer;
+  transition: filter .5s;
+}
+
+main{
+  flex-grow: 1;
+  position: relative;
+}
+
+#__next{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.loading{
+  display: grid;
+  place-content: center;
+  text-align: center;
+  grid-column: 1/-1;
+  min-height: 40vh;
+  font-size: 2rem;
+}
+
+.selected {
+  color: #fff;
+  background-color: #000;
+}
+
+.invalid {
+  border-color: red !important;
+}
+
+.button_1{
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 1rem 0.5rem;
+  font-weight: bold;
+}
+
+.noScroll {
+  overflow: hidden;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+
+  #__next{
+    margin-left: auto;
+    width: 85%;
+    padding: 0 3rem 0 0;
+  }
+
+  [data-paper-holes] {
+    display: grid;
+  }
+
+}
